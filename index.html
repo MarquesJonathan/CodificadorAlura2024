@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/deviling-ragnarok.gif" type="image/x-icon">
+</head>
+
+<body>
+    
+    <main class="main container">
+        <header class="cabecalho">
+            <img src="imagens/deviling-ragnarok.gif" alt="logo-deviling-img">
+            <h1>Decodifica-RO</h1>
+        </header>
+
+        <div class="container-input">
+            <div class="input">
+                <textarea  id="input-texto" placeholder="Digite Seu texto aqui..."></textarea>
+                <p>ALERTA!: Apenas Letras Maiúsculas e sem acentos!</p>
+                
+            </div>
+
+        <div id="output">
+            <img src="imagens/deviling-fundo.png" alt="montaria-img">
+            <h2>Sua mensagem aparecerá aqui!</h2>
+            <span>Digite um texto para criptografar ou descriptografar.</span>
+        </div>    
+        </div>
+
+        <div class="buttons">
+            <div class="container-btn">
+                <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/jonathan-marques-meireles/"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/MarquesJonathan"><ion-icon name="logo-github"></ion-icon></a>
+            
+        </div>
+        <h3>Desenvolvido por Jonathan Marques</h3>
+    </footer>
+
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
